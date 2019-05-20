@@ -2,28 +2,45 @@
 // Feel free to remove these styles for production!
 
 // Body Styles
-html, body,
+html,
+body,
 .body {
   background: #e4e5e;
   background-color: #e4e5e;
 }
-
-.container.header {
-  background: #f3f3f3;
-}
-
-.body-drip {
-  border-top: 8px solid #663399;
-}
-
-// Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: #ff690f;
   background-color: #ff690f;
-}
 
-.header .columns {
-  padding-bottom: 0;
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    .logo-white {
+      width: 128px;
+    }
+    .user_icon {
+      width: 32px;
+    }
+  }
+}
+.sub-header {
+  background: #d65600;
+  background-color: #d65600;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-top: 20px;
+    color: white;
+    a {
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
 }
 
 .header p {
@@ -41,8 +58,8 @@ html, body,
 
 // Social Media
 table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
+  background: #3b5998 !important;
+  border-color: #3b5998;
 }
 
 table.button.twitter table td {
@@ -51,8 +68,8 @@ table.button.twitter table td {
 }
 
 table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
+  background: #db4a39 !important;
+  border-color: #db4a39;
 }
 
 .wrapper.secondary {
