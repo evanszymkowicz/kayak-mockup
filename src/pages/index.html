@@ -8,33 +8,35 @@ subject: Today's Great Deals
       <h2>Deal of The Day</h2>
       <img src="{{kayakEmail.dealOfTheDay.image}}" />
       <p>
-
+      {{kayakEmail.dealOfTheDay.location}}: {{kayakEmail.dealOfTheDay.description}}
       </p>
-      <span class="save_amount"></span>
-      <span class="tiny_info"></span>
-      <span class="price"></span>
+      <span class="save_amount">{{kayakEmail.dealOfTheDay.description}}></span>
+      <span class="tiny_info">{{kayakEmail.dealOfTheDay.tinyInfo}}</span>
+      <span class="price">{{kayakEmail.dealOfTheDay.price}}+</span>
       <center>
-        <a href="{{kayakEmail.dealOfTheDay.link}}" class="button">See Deal</a>
+        <a href="{{kayakEmail.dealOfTheDay.link}}" class="button">See Today's Deal</a>
       </center>
     </columns>
   </row>
 </container>
+<!-- First offer -->
 <container>
   <row class="content-area">
     <columns class="first-offer">
-
+      {{#each kayakEmail.offers}}
       <row class="offer">
         <columns>
           <img src="{{this.image}}" />
           <p>
-
+            {{this.location}}: {{this.description}}
           </p>
-          <span class="save_amount"></span>
-          <span class="tiny_info"></span>
-          <span class="price"></span>
+          <span class="save_amount">{{this.saveAmount}}</span>
+          <span class="tiny_info">{{this.tinyInfo}}</span>
+          <span class="price">{{this.price}}</span>
             <a href="{{this.link}}" class="button">See Deal</a>
         </columns>
       </row>
+      {{/each}}
     </columns>
   </row>
 </container>
@@ -51,7 +53,7 @@ subject: Today's Great Deals
           <h4>
             Still looking?
           </h4>
-          <p>Search hundreds of deals on hotesl, flights and more!</p>
+          <p>Search hundreds of deals on flights, hotels and more!</p>
             <a href="#" class="button">See Deals</a>
         </columns>
       </row>
