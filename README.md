@@ -1,7 +1,7 @@
 # Recreating a Kayak HTML email with the Foundation framework. Image pack and dummy data provided by Coding Phase.
-![Header](assets/img/KayakHeader.PNG)
-![Body](assets/img/Offers.PNG)
-![Footer](assets/img/KayakFooter.PNG)
+![Header](src/assets/img/KayakHeader.png)
+![Body](src/assets/img/Offers.png)
+![Footer](src/assets/img/KayakFooter.png)
 
 
 
