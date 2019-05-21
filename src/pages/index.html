@@ -2,34 +2,59 @@
 layout: kayak
 subject: Today's Great Deals
 ---
-
 <container>
-  <row class="header">
-    <columns valign="middle">
-      <img
-        src="{{ root }}/assets/img/kayak_files/logo_white.png"
-        class="logo_white"
-      />
-    </columns>
+  <row class="deal_of_day ">
     <columns>
-      <img
-        src="{{ root }}/assets/img/kayak_files/user.png"
-        class="user_icon float-right"
-      />
+      <h2>Deal of The Day</h2>
+      <img src="{{kayakEmail.dealOfTheDay.image}}" />
+      <p>
+
+      </p>
+      <span class="save_amount"></span>
+      <span class="tiny_info"></span>
+      <span class="price"></span>
+      <center>
+        <a href="{{kayakEmail.dealOfTheDay.link}}" class="button">See Deal</a>
+      </center>
     </columns>
   </row>
-  <row class="sub-header">
-    <columns>
-      <a href="#">Flights</a>
+</container>
+<container>
+  <row class="content-area">
+    <columns class="first-offer">
+
+      <row class="offer">
+        <columns>
+          <img src="{{this.image}}" />
+          <p>
+
+          </p>
+          <span class="save_amount"></span>
+          <span class="tiny_info"></span>
+          <span class="price"></span>
+            <a href="{{this.link}}" class="button">See Deal</a>
+        </columns>
+      </row>
     </columns>
+  </row>
+</container>
+<container>
+  <row class="content-area">
     <columns>
-      <a href="#">Hotels</a>
-    </columns>
-    <columns>
-      <a href="#">Cars</a>
-    </columns>
-    <columns>
-      <a href="#">Packages</a>
+      <row class="offer last-offer">
+        <columns>
+          <row>
+            <columns>
+              <img src="https://i.imgur.com/gfaHeuE.png" class="group-icons">
+            </columns>
+          </row>
+          <h4>
+            Still looking?
+          </h4>
+          <p>Search hundreds of deals on hotesl, flights and more!</p>
+            <a href="#" class="button">See Deals</a>
+        </columns>
+      </row>
     </columns>
   </row>
 </container>
