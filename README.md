@@ -1,3 +1,10 @@
+# Recreating a Kayak HTML email with the Foundation framework. Image pack and dummy data provided by Coding Phase.
+![Header](assets/img/KayakHeader.PNG)
+![Body](assets/img/Offers.PNG)
+![Footer](assets/img/KayakFooter.PNG)
+
+
+
 # Foundation for Emails Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
@@ -58,7 +65,7 @@ Run `npm run litmus` to build as above, then submit to litmus for testing. *AWS 
 
 Run `npm run mail` to build as above, then send to specified email address for testing. *SMTP server details required (config.json)*
 
-Run `npm run zip` to build as above, then zip HTML and images for easy deployment to email marketing services. 
+Run `npm run zip` to build as above, then zip HTML and images for easy deployment to email marketing services.
 
 ### Speeding Up Your Build
 
@@ -127,6 +134,3 @@ Similar to the Litmus tests, you can have the emails sent to a specified email a
 For a full list of Litmus' supported test clients(applications) see their [client list](https://litmus.com/emails/clients.xml).
 
 **Caution:** AWS Service Fees will result, however, are usually very low do to minimal traffic. Use at your own discretion.
-
-# kayak-mockup
-# kayak-mockup

@@ -5,7 +5,7 @@
     "Description": "7 days with hotel and car rental included. Use promo code CFDL110 to save. Price reflects NYC departure. Other cities available, prices may vary.",
     "saveAmount": "Save $110 with code",
     "tinyInfo": "Gate Travel",
-    "price": "699",
+    "price": "$699",
     "link": "#",
     "image": "/assets/img/kayak_files/ireland.png"
   },
@@ -26,25 +26,16 @@
       "tinyInfo": "Visitlondon.com",
       "price": "$540",
       "link": "#",
-      "image": "/assets/img/kayak_files/cancun.png"
+      "image": "/assets/img/kayak_files/london.png"
     },
     {
-      "location": "Spain",
-      "Description": "9 night stay in Madrid. Price reflects BOS departure. Price may vary when leaving from other cities.",
+      "location": "China",
+      "Description": "9 night stay in Bejing. Price reflects BOS departure. Price may vary when leaving from other cities.",
       "saveAmount": "Save up to 45%",
-      "tinyInfo": "FlyMadrid.com",
-      "price": "$700",
+      "tinyInfo": "FlyChina.com",
+      "price": "$880",
       "link": "#",
-      "image": "/assets/img/kayak_files/cancun.png"
-    },
-    {
-      "location": "Hawai'i",
-      "Description": "5 night stay in Honolulu. Price reflects LAX departure. Price may vary when leaving from other cities.",
-      "saveAmount": "Save up to 45%",
-      "tinyInfo": "StayHonolulu.com",
-      "price": "$665",
-      "link": "#",
-      "image": "/assets/img/kayak_files/cancun.png"
+      "image": "/assets/img/kayak_files/china.png"
     }
   ]
 }
