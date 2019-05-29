@@ -5,8 +5,8 @@ body,
   background-color: #e4e5ea;
 }
 .header {
-  background: $primary-color;
-  background-color: $primary-color;
+  background: $background-color;
+  background-color: $background-color;
 
   .columns {
     padding-bottom: 20px;
@@ -22,7 +22,7 @@ body,
   }
 }
 .sub-header {
-  background: #d65600;
+  background: $background-color;
   background-color: #d65600;
 
   .columns {
